@@ -36,7 +36,7 @@ class: center, middle
 
 ## Data storage and format
 
-- We wanted .emph[lightweight maintenance]
+- We wanted a .emph[lightweight maintenance]
 - The "database" is a GitHub repository: https://github.com/constructicon/russian-data
 - We have chosen the [YAML format](https://en.wikipedia.org/wiki/YAML) because we wanted a .emph[hierarchical] data structure
 - Readable/writable by .emph[both humans and programs]
@@ -44,7 +44,8 @@ class: center, middle
 
 ---
 
-[Example (truncated)](https://github.com/constructicon/russian-data/blob/main/data/0003.yml)
+## [Example](https://github.com/constructicon/russian-data/blob/main/data/0003.yml) (truncated)
+
 ```yaml
 ---
 record: 3
@@ -96,3 +97,5 @@ morphology:
 The web app is licensed under the [GNU Affero General Public License v3.0](https://github.com/constructicon/russian/blob/main/LICENSE)
 
 <img src="img/license.png" style="height: 150px;"/>
+
+### We also plan to give an open source and a DOI for the data to encourage derivative work
