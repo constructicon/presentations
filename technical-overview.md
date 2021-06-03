@@ -98,4 +98,4 @@ The web app is licensed under the [GNU Affero General Public License v3.0](https
 
 <img src="img/license.png" style="height: 150px;"/>
 
-### We also plan to give an open source and a DOI for the data to encourage derivative work
+### We also plan to give an open source license and a DOI for the data to encourage derivative work
