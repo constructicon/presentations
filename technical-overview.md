@@ -6,7 +6,9 @@ class: center, middle
 
 ## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
 
-## Text is CC-BY
+### UiT The Arctic University of Norway
+
+### Text is CC-BY
 
 ---
 
