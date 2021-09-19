@@ -1,6 +1,7 @@
 # Presentation slides
 
 - [Short technical overview](http://cicero.xyz/v3/remark/0.14.0/github.com/constructicon/presentations/main/technical-overview.md/)
+- [Launch (2021-09-20)](http://cicero.xyz/v3/remark/0.14.0/github.com/constructicon/presentations/main/launch.md/)
 
 Slides served using [Cicero](http://cicero.xyz), which can be [run locally](https://github.com/bast/cicero).
 
