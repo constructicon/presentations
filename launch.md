@@ -22,28 +22,6 @@ class: center, middle
 
 ---
 
-## Separation of web app and data
-
-- Data is hosted at https://github.com/constructicon/russian-data
-- Web app source code is at https://github.com/constructicon/russian
-- Web app is hosted as static page on [GitHub Pages](https://pages.github.com/)
-- The user interface is managed by your browser
-- .emph[Privacy]: all user interaction stays on your browser, no data is sent "back"
-
-
-### Technologies used
-
-- https://www.getzola.org/ (static site)
-- https://vuejs.org/ (front-end user interface)
-- https://vue-treeselect.js.org/ (for tree-select in advanced search)
-- https://github.com/bvaughn/js-search (for searching)
-- https://getbootstrap.com/ (CSS)
-- https://github.com/nodeca/js-yaml (parsing YAML files)
-- https://github.com/axios/axios (fetching the data)
-- https://lodash.com/ (debouncing)
-
----
-
 ## [Example](https://github.com/constructicon/russian-data/blob/main/data/0003.yml) (truncated)
 
 ```yaml
@@ -75,6 +53,28 @@ morphology:
   - NP
   - Nom
 ```
+
+---
+
+## Separation of web app and data
+
+- Data is hosted at https://github.com/constructicon/russian-data
+- Web app source code is at https://github.com/constructicon/russian
+- Web app is hosted as static page on [GitHub Pages](https://pages.github.com/)
+- The user interface is managed by your browser
+- .emph[Privacy]: all user interaction stays on your browser, no data is sent "back"
+
+
+### Technologies used
+
+- https://www.getzola.org/ (static site)
+- https://vuejs.org/ (front-end user interface)
+- https://vue-treeselect.js.org/ (for tree-select in advanced search)
+- https://github.com/bvaughn/js-search (for searching)
+- https://getbootstrap.com/ (CSS)
+- https://github.com/nodeca/js-yaml (parsing YAML files)
+- https://github.com/axios/axios (fetching the data)
+- https://lodash.com/ (debouncing)
 
 ---
 
