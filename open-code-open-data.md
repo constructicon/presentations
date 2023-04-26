@@ -36,11 +36,29 @@ Text: CC-BY 4.0
 
 # Constructicon
 
-[adding content ...]
+
+## Separation of web app and data
+
+- Data is hosted at https://github.com/constructicon/russian-data
+- Web app source code is at https://github.com/constructicon/russian
+- Web app is hosted as static page on [GitHub Pages](https://pages.github.com/)
+- The user interface is managed by your browser
+- .emph[Privacy]: all user interaction stays on your browser, no data is sent "back"
+
+
+## Lightweight and open
+
+- We wanted a .emph[lightweight maintenance]
+- The "database" is a GitHub repository: https://github.com/constructicon/russian-data
+- We wanted a .emph[hierarchical] data structure: [YAML format](https://en.wikipedia.org/wiki/YAML)
+- .emph[Standard] data format, readable/writable by .emph[both humans and programs]
+- .emph[Code and data are open] to **encourage reuse**
 
 ---
 
 # Goals
+
+- Discuss the .emph[social aspect] of code and data
 
 - Connect software/data licenses to FAIR principles
 
