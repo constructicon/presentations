@@ -1,6 +1,8 @@
 class: center, middle, gray-background
 
-# Practical software licensing
+# The importance of open code and open data
+
+## The case of the Russian Constructicon
 
 ## Radovan Bast ([fosstodon.org/@radovan](https://fosstodon.org/@radovan))
 
