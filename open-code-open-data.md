@@ -94,6 +94,46 @@ Researchers need to navigate many tools and concepts.
 
 ---
 
+# Social coding
+
+[we start with a quiz]
+
+---
+
+## Citation as one form of academic credit to motivate sharing papers
+
+<img src="img/sharing-papers.jpg"
+     alt="Image shows that we are motivated sharing our published papers since we get rewarded with academic credit in form of citations"
+     style="height: 300px;" />
+
+Sharing papers and academic credit:
+- The goal is maximum visibility and maximum reuse.
+- The more interesting science is done referencing my paper, the better for me.
+- Nobody actively tries to limit the reach of their papers.
+
+---
+
+## Different ways we can benefit from sharing code
+
+<img src="img/sharing-code.jpg"
+     alt="Getting improvements back and also getting citations can motivate us to share code"
+     style="height: 300px;" />
+
+Sharing code:
+- "I did all the ground work and they get to do the interesting science?"
+- Sharing code and encouraging *derivative work* may boost your academic impact.
+- But will your work be visible if it is used two levels deep down?
+
+---
+
+<img src="img/in-out.jpg"
+     alt="Our work depends on ideas, articles, data, and software"
+     style="height: 300px;" />
+
+Whether and what we can share depends on how we obtained the components
+
+---
+
 .left-column50[
 ### Beginning of a project
 
@@ -344,27 +384,11 @@ fictitious example though. -->
 
 ---
 
-### Custom/closed/proprietary
+<img src="img/license-models.png"
+     alt="European Union Public Licence (EUPL): guidelines July 2021"
+     style="height: 550px;" />
 
-- .emph[Derivative work typically not possible]
-
-
-### Permissive
-
-- You .emph[may lose access to derivative work]
-- Attractive for companies with proprietary software
-
-
-### Share-alike, weak copyleft
-
-- You can reuse .emph[their changes to your component]
-- Compatible with proprietary software
-
-
-### Strong copyleft
-
-- You can reuse and further change .emph[the combined derivative work]
-- Not attractive for companies with proprietary software
+.cite[European Union Public Licence (EUPL): guidelines July 2021, <https://data.europa.eu/doi/10.2799/77160>]
 
 ---
 
@@ -450,6 +474,7 @@ fictitious example though. -->
 - Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
   [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
 - **Do not design your own custom licenses** for open source/ open use: compatibility not clear.
+- Great resource for comparing software licenses: [Joinup Licensing Assistant](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
 
 
 ### Contributing
