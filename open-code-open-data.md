@@ -12,8 +12,6 @@ class: center, middle, gray-background
 
 Text: CC-BY 4.0
 
-Slides: https://bit.ly/practical-software-licensing
-
 ---
 
 # About me
@@ -36,13 +34,19 @@ Slides: https://bit.ly/practical-software-licensing
 
 ---
 
+# Constructicon
+
+[adding content ...]
+
+---
+
 # Goals
 
-- Connect software licenses to FAIR principles
+- Connect software/data licenses to FAIR principles
 
 - .emph[Practical recommendations] for starting, contributing, reusing
 
-- Practical recommendations for individuals, projects, group leads
+- ... for individuals, projects, group leads
 
 - Help you navigating and deciding
 
@@ -557,29 +561,3 @@ version: 2.0.4
 doi: 10.5281/zenodo.1234
 date-released: 2021-08-11
 ```
-
----
-
-## Slides: https://bit.ly/practical-software-licensing
-
-.left-column50[
-<img src="img/coderefinery.png" style="height: 140px;"/>
-
-https://coderefinery.org
-]
-
-.right-column50[
-<img src="img/rse-logo.png" style="height: 140px;"/>
-
-https://research-software.uit.no
-]
-
-
-## More about licenses
-
-- https://coderefinery.github.io/social-coding/licensing/#further-reading
-
-
-## More about software citation
-
-- https://coderefinery.github.io/social-coding/software-citation/#how-to-cite-software
