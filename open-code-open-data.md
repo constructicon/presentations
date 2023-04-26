@@ -1,8 +1,6 @@
 class: center, middle, gray-background
 
-# The importance of open code and open data
-
-## The case of the Russian Constructicon
+# The importance of open code and open data: The case of the Russian Constructicon
 
 ## Radovan Bast ([fosstodon.org/@radovan](https://fosstodon.org/@radovan))
 
