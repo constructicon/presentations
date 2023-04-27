@@ -96,7 +96,7 @@ Researchers need to navigate many tools and concepts.
 
 # Social coding
 
-[we start with a quiz]
+[we start with a poll - presenter will share a poll link]
 
 ---
 
@@ -507,23 +507,6 @@ fictitious example though. -->
   cleaned up (`git filter-branch`).
 - In any legal dispute, one will look at code history (another reason to use
   version control). A big code base without any history will look suspicious.
-
----
-
-# Examples
-
-- **Rust compiler and many public crates**: dual-licensed under Apache 2.0 and MIT
-- **React** (Facebook): switched from custom "BSD+Patents" to MIT
-- **TensorFlow**: Apache 2.0
-- **Pandas**: BSD-3
-- **FFmpeg**: LGPL v2.1+
-- **Emacs**: GPL
-- **Linux kernel**: GPL
-
-
-### Recommendation
-
-- Compare license of codes that you depend on and that might depend on you.
 
 ---
 
