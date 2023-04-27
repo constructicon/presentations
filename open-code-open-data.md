@@ -298,6 +298,14 @@ class: center, middle, inverse
 
 ---
 
+class: center, middle, inverse
+
+# Writing code mostly means:
+
+# changing code
+
+---
+
 # Software license types (metaphor: cake)
 
 .left-column50[
@@ -392,124 +400,6 @@ fictitious example though. -->
 
 ---
 
-# Ownership (1/2)
-
-### Who owns the copyright for software you write?
-
-- Intellectual property .emph[depends on the country and the employer] ("works made for hire")
-
-
-### Who can decide about or change a license?
-
-- The copyright holder if a separate "Contributor License Agreement" is signed.
-- Otherwise consent from all contributors.
-
----
-
-# Ownership (2/2)
-
-### If you own your software:
-
-- You can change the license.
-- You can dual-license (e.g. GPL for anyone, but you can pay for commercial non-GPL).
-
-
-### If you do not own your software, you can:
-
-- Request open-sourcing directly (preserves your rights).
-- Request a transfer of ownership (check with your university).
-
-
-### If you accept contributions (pull requests), you may not be the only owner anymore!
-
-- Clarify licensing strategy early in the project.
-
----
-
-# Guidelines/recommendations from various universities
-
-- [Aalto university](https://www.aalto.fi/en/open-science-and-research/opening-your-software-at-aalto-university)
-    - Summary: yes, you can open software and data and you need to ask only
-      minimal permission (confirm your supervisor agrees).
-- [UiT](https://en.uit.no/research/innovation/art?p_document_id=754152)
-    - "Work results of a copyright nature belong to the author"
-- [NTNU](https://i.ntnu.no/wiki/-/wiki/English/Guidelines+for+policy+for+Open+Science)
-    - "Where no overriding guidelines exist, NTNU-produced software must be
-      licensed under the European Union Public Licence."
-- [UiB](https://www.uib.no/en/ub/106619/copyright-own-scientific-work)
-    - "As a rule authors have copyright to their own work"
-    - Encourage the use of CC-BY
-- [UiO](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/ipr.html)
-    - "If the University chooses not to take steps to secure copyright
-      protection and exploit the findings, the employees must be entitled to
-      have these rights reassigned to them."
-
----
-
-# Practical recommendations (1/3)
-
-### Starting a new project
-
-- License your code **very early** in the project.
-- **You cannot ignore licensing**: default is "no one can make derivative works".
-- Start with a `README.md` and a `LICENSE` file.
-- A great resource on what to include in a `README.md`
-  are the [JOSS paper review criteria](https://joss.readthedocs.io/en/latest/review_criteria.html).
-- Add also the files `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` (see [Mozilla
-  Introduction to Contributor
-  Guidelines](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/),
-  [good example](https://github.com/KirstieJane/STEMMRoleModels)).
-
-
-### Even before starting
-
-- Emphasize the open source nature of the code output in your research
-  proposal.
-- Agree on license that works for all project partners.
-
----
-
-### Choice of license
-
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
-  [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
-- **Do not design your own custom licenses** for open source/ open use: compatibility not clear.
-- Great resource for comparing software licenses: [Joinup Licensing Assistant](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
-
-
-### Contributing
-
-- Don't lock yourself out of your own code. Clarify the license.
-
-
-### Receiving contributions
-
-- Keep track of where things come from. Clarify their license.
-- **Work as if the repo is public even though it is still private**:
-  This is to avoid surprises about code in the history with incompatible
-  license years later when we decide to open the project.
-- Open core: You don't have to open source all your work. Core can be open
-  and on a public branch. The unpublished stuff can be on a private repository.
-
----
-
-# Practical recommendations (3/3)
-
-### Open-sourcing code
-
-- Clarify ownership.
-- Identify all contributors.
-- Agree on license.
-- Ask all contributors whether they agree to a license change.
-- If somebody disagrees, their contribution needs to be taken out.
-- Code with incompatible license may need to be taken out.
-- Often it is useful to share the code history: then history needs to be
-  cleaned up (`git filter-branch`).
-- In any legal dispute, one will look at code history (another reason to use
-  version control). A big code base without any history will look suspicious.
-
----
-
 .left-column50[
 <img src="img/cc.png"
      alt="Creative commons license spectrum between public domain and all rights reserved"
@@ -558,9 +448,120 @@ the AI output, and AI evolutions.
 
 ---
 
-class: center, middle, gray-background
+# Ownership
+
+### Who can decide about or change a license?
+
+- The copyright holder (if a separate "Contributor License Agreement" is signed).
+- Otherwise consent from all contributors.
+
+
+### Who owns the copyright for software you write?
+
+- Intellectual property .emph[depends on the country and the employer] ("works made for hire")
+
+
+### If you accept contributions (pull requests), you may not be the only owner anymore!
+
+- Clarify licensing strategy early in the project.
+
+---
+
+# Guidelines/recommendations from various universities
+
+- [Aalto university](https://www.aalto.fi/en/open-science-and-research/opening-your-software-at-aalto-university)
+    - Summary: yes, you can open software and data and you need to ask only
+      minimal permission (confirm your supervisor agrees).
+- [UiT](https://en.uit.no/research/innovation/art?p_document_id=754152)
+    - "Work results of a copyright nature belong to the author"
+- [NTNU](https://i.ntnu.no/wiki/-/wiki/English/Guidelines+for+policy+for+Open+Science)
+    - "Where no overriding guidelines exist, NTNU-produced software must be
+      licensed under the European Union Public Licence."
+- [UiB](https://www.uib.no/en/ub/106619/copyright-own-scientific-work)
+    - "As a rule authors have copyright to their own work"
+    - Encourage the use of CC-BY
+- [UiO](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/ipr.html)
+    - "If the University chooses not to take steps to secure copyright
+      protection and exploit the findings, the employees must be entitled to
+      have these rights reassigned to them."
+
+---
+
+# Practical recommendations (1/3)
+
+### Even before starting
+
+- Emphasize the open source nature of the code output in your research
+  proposal.
+- Agree on license that works for all project partners.
+
+
+### Starting a new project
+
+- License your code **very early** in the project.
+- **You cannot ignore licensing**: default is "no one can make derivative works".
+- Start with a `README.md` and a `LICENSE` file.
+- A great resource on what to include in a `README.md`
+  are the [JOSS paper review criteria](https://joss.readthedocs.io/en/latest/review_criteria.html).
+- Add also the files `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` (see [Mozilla
+  Introduction to Contributor
+  Guidelines](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/),
+  [good example](https://github.com/KirstieJane/STEMMRoleModels)).
+
+---
+
+### Choice of license
+
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
+- **Do not design your own custom licenses** for open source/ open use: compatibility not clear.
+- Great resource for comparing software licenses: [Joinup Licensing Assistant](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
+
+
+### Contributing
+
+- Don't lock yourself out of your own code. Clarify the license.
+
+
+### Receiving contributions
+
+- Keep track of where things come from. Clarify their license.
+- **Work as if the repo is public even though it is still private**:
+  This is to avoid surprises about code in the history with incompatible
+  license years later when we decide to open the project.
+- Open core: You don't have to open source all your work. Core can be open
+  and on a public branch. The unpublished stuff can be on a private repository.
+
+---
+
+# Practical recommendations (3/3)
+
+### Open-sourcing code
+
+- Clarify ownership.
+- Identify all contributors.
+- Agree on license.
+- Ask all contributors whether they agree to a license change.
+- If somebody disagrees, their contribution needs to be taken out.
+- Code with incompatible license may need to be taken out.
+- Often it is useful to share the code history: then history needs to be
+  cleaned up (`git filter-branch`).
+- In any legal dispute, one will look at code history (another reason to use
+  version control). A big code base without any history will look suspicious.
+
+---
+
+class: center, middle, inverse
 
 # Software licenses, software citation, and academic credit are not the same thing
+
+---
+
+class: center, middle, inverse
+
+# Is putting software on GitHub/GitLab/... publishing?
+
+## Is it enough to make the code public for the code to remain findable and accessible?
 
 ---
 
@@ -587,3 +588,46 @@ version: 2.0.4
 doi: 10.5281/zenodo.1234
 date-released: 2021-08-11
 ```
+
+---
+
+# Checklist for making a release of your software citable
+
+- Assigned an appropriate license
+
+- Described the software using an appropriate metadata format
+
+- Clear version number
+
+- Authors credited
+
+- Procured a persistent identifier
+
+- Added a recommended citation to the software documentation
+
+---
+
+# How to cite software
+
+## Great resources
+
+- A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation
+  Working Group, "Software citation principles," PeerJ Comput. Sci., vol. 2,
+  no. e86, 2016 ([DOI](https://doi.org/10.7717/peerj-cs.86))
+- D. S. Katz, N. P. Chue Hong, T. Clark, et al., Recognizing the value of
+  software: a software citation guide [version 2; peer review: 2 approved].
+  F1000Research 2021, 9:1257 ([DOI](https://doi.org/10.12688/f1000research.26932.2))
+- N. P. Chue Hong, A. Allen, A. Gonzalez-Beltran, et al., Software Citation
+  Checklist for Authors (Version 0.9.0). Zenodo. 2019a. ([DOI](https://doi.org/10.5281/zenodo.3479199))
+- N. P. Chue Hong, A. Allen, A. Gonzalez-Beltran, et al., Software Citation
+  Checklist for Developers (Version 0.9.0). Zenodo. 2019b. ([DOI](https://doi.org/10.5281/zenodo.3482769))
+
+---
+
+# Conclusions/recommendations
+
+- Make sure you can show your code (publication, CV)
+
+- Work as if the repo/code/data is public even though it is still private
+
+- When designing software, in your mind try to time travel 5 or 10 years into the future
