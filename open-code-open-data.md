@@ -78,6 +78,12 @@ Text: CC-BY 4.0
 
 ---
 
+class: center, middle, gray-background
+
+# .quote["But I am not a software developer!"]
+
+---
+
 # FAIR principles and software
 
 Researchers need to navigate many tools and concepts.
@@ -261,7 +267,7 @@ Code that we write is automatically protected by copyright practically
 
 ---
 
-class: center, middle, inverse
+class: center, middle, gray-background
 
 # .quote["It depends"]
 
@@ -626,8 +632,10 @@ date-released: 2021-08-11
 
 # Conclusions/recommendations
 
-- Make sure you can show your code (publication, CV)
+- Make sure you can show your code outside your project (publication, CV)
 
 - Work as if the repo/code/data is public even though it is still private
 
 - When designing software, in your mind try to time travel 5 or 10 years into the future
+
+- **F**indable and **A**ccessible (FAIR) is relatively easy to do: get a persistent identifier
